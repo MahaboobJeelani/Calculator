@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section>
+        <article>
+            <input type="text" placeholder="calculator"> <br>
+            <Button class="btn" onclick="calc(1)">1</Button>
+            <Button class="btn" onclick="calc(2)">2</Button>
+            <Button class="btn" onclick="calc(3)">3</Button>
+            <Button class="btn" onclick="calc('+')">+</Button> <br>
+
+            <Button class="btn" onclick="calc(4)">4</Button>
+            <Button class="btn" onclick="calc(5)">5</Button>
+            <Button class="btn" onclick="calc(6)">6</Button>
+            <Button class="btn" onclick="calc('-')">-</Button> <br>
+
+            <Button class="btn" onclick="calc(7)">7</Button>
+            <Button class="btn" onclick="calc(8)">8</Button>
+            <Button class="btn" onclick="calc(9)">9</Button>
+            <Button class="btn" onclick="calc('*')">*</Button> <br>
+
+            <Button class="btn" onclick="calc('.')">.</Button>
+            <Button class="btn" onclick="calc(0)">0</Button>
+            <Button class="btn" onclick="erase()">c</Button>
+            <Button class="btn" onclick="calc('/')">/</Button> <br>
+
+            <button class="btn eql" onclick="equal()">=</button>
+
+        </article>
+    </section>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
